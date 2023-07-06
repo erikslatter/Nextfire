@@ -121,3 +121,15 @@ a {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.navbar li {
+  display:inline;
+  float:right;
+}
+
+button {
+  background-color:white;
+  color:black;
+  min-width: 128px;
+  min-height:48px;
+}
