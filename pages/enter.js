@@ -35,7 +35,7 @@ function SignInButton() {
     );
 }
 
-function SignOutButton() {
+export function SignOutButton() {
     return <button onClick = {() => auth.signOut()}>Sign Out</button>;
 }
 
